@@ -1,5 +1,3 @@
-Markdown
-
 # Audi R8 3D Experience
 
 An interactive 3D web application showcasing the Audi R8. This project leverages the power of WebGL to render a high-fidelity car model directly in the browser, allowing users to explore the vehicle from every angle.
