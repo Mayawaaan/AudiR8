@@ -51,7 +51,7 @@ function Loader() {
 }
 
 function Model({ carColor, ...props }) {
-    const { scene } = useGLTF('/Audi.glb');
+    const { scene } = useGLTF('https://n5nscc9kbmnkcnqa.public.blob.vercel-storage.com/Audi.glb');
     
     // Clone the scene once and apply materials
     const clonedScene = useMemo(() => {
@@ -319,6 +319,6 @@ const AudiModel = ({ carColor, setCarColor }) => {
   );
 };
 
-useGLTF.preload('/Audi.glb');
+useGLTF.preload('https://n5nscc9kbmnkcnqa.public.blob.vercel-storage.com/Audi.glb');
 
 export default AudiModel;
